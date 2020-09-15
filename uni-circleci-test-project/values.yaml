@@ -3,13 +3,6 @@ rabbitmq-ha:
   fullnameOverride: rabbitmq
   rabbitmqUsername: uni_user
   rabbitmqPassword: uni_pass
-  nodeSelector:
-    scalability: stable
-  tolerations:
-    - effect: NoExecute
-      key: scalability
-      operator: Equal
-      value: stable
   prometheus:
     exporter:
       enabled: true
