@@ -4,7 +4,6 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-    duck
 spec:
   replicas: 4
   selector:

@@ -1,8 +1,8 @@
 apiVersion: v2
 name: uni-circleci-test-project
 type: application
-version: 1.0.3
-appVersion: 1.0.3
+version: 1.0.4
+appVersion: 1.0.4
 dependencies:
   - name: rabbitmq-ha
     repository: https://kubernetes-charts.storage.googleapis.com/
